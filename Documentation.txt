@@ -1,0 +1,9 @@
+1- URL is A Uniform Resource Locator
+https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A1649985561604&ei=GchYYoW-JMbeao7ok8gI&ved=0ahUKEwjFrqKa85T3AhVGrxoKHQ70BIkQ4dUDCA4&uact=5&oq=html&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjELADECc6BwgAEEcQsAM6BAgAEAM6CwgAEIAEELEDEIMBOgsILhCABBDHARDRAzoFCC4QgAQ6CAgAEIAEELEDOg4ILhCABBCxAxDHARCjAjoHCCMQsQIQJzoECAAQCkoECEEYAEoECEYYAFDZCViFFWDTF2gEcAF4AIABpQGIAbwFkgEDMC41mAEAoAEByAEKwAEB&sclient=gws-wiz-serp
+[https/http] here the protocal 
+[www.google.com] here the host
+.com/....  After that will be the Resource of the host
+
+-------------------------------------------------------------------------
+
+2-    
