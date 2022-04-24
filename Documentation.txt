@@ -1,3 +1,4 @@
+HTML Section{
 1- URL is A Uniform Resource Locator
 https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A1649985561604&ei=GchYYoW-JMbeao7ok8gI&ved=0ahUKEwjFrqKa85T3AhVGrxoKHQ70BIkQ4dUDCA4&uact=5&oq=html&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjELADECc6BwgAEEcQsAM6BAgAEAM6CwgAEIAEELEDEIMBOgsILhCABBDHARDRAzoFCC4QgAQ6CAgAEIAEELEDOg4ILhCABBCxAxDHARCjAjoHCCMQsQIQJzoECAAQCkoECEEYAEoECEYYAFDZCViFFWDTF2gEcAF4AIABpQGIAbwFkgEDMC41mAEAoAEByAEKwAEB&sclient=gws-wiz-serp
 [https/http] here the protocal 
@@ -6,4 +7,41 @@ https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A
 
 -------------------------------------------------------------------------
 
-2-    
+2-   
+
+} 
+
+CSS Section{
+
+   1- link this css file with html <link rel="name" href="path for css file"/>
+
+   2- [Selectors] are ways of grabbing and manipulation html , there is a many ways 
+      a-The Element selector <p>Hola onii chan</p> p is a element selector || style only p element 
+
+      b- The class selector <p class = "Hclass">Hola onii chan</p> Hclass is a class selector will style all seleceted element of the class
+       
+      c- The ID selector <p id = "Hid">Hola onii chan</p> Hid is an id Selector and we only use it for one element
+
+    3-
+        
+
+
+}// CSS Section
+
+Code Section{
+
+
+   1- link <link rel="name" href="path for css file"/>
+
+   2- [Selectors] 
+      a-The Element selector <p>Hola onii chan</p>  
+
+      b- The class selector <p class = "Hclass">Hola onii chan</p> 
+       
+      c- The ID selector <p id = "Hid">Hola onii chan</p>
+
+        Pseudoselectors
+         a- hover : css the element when it got hoverd  
+}
+
+

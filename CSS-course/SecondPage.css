@@ -1,0 +1,30 @@
+
+ #title:hover{/* hover is pseudoSelectors   */
+    color: red;
+ }
+ li:first-child{ /* first-child is pseudoSelectors   */
+   color: blue;  
+ }/* first child of ul */
+
+ li:nth-child(2){ /* nth-child(Number of child) is pseudoSelectors   */
+    color: green;  
+  }
+  
+#White-flower li:nth-child(1){
+  color: yellow;
+}
+
+
+
+  
+
+  #google-link:link{/* color of the link before you click or visited */
+      color:gray
+  }
+  #google-link:visited{/* color of the link after you click or visit it  */
+    color: blue
+}
+img{
+    display: block;
+}
+
