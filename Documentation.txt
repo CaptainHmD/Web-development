@@ -15,20 +15,47 @@ CSS Section{
 
    1- link this css file with html <link rel="name" href="path for css file"/>
 
-   2- [Selectors] are ways of grabbing and manipulation html , there is a many ways 
+   2- [Selectors] are ways of grabbing and manipulation html , there is a many ways {
       a-The Element selector <p>Hola onii chan</p> p is a element selector || style only p element 
 
       b- The class selector <p class = "Hclass">Hola onii chan</p> Hclass is a class selector will style all seleceted element of the class
        
       c- The ID selector <p id = "Hid">Hola onii chan</p> Hid is an id Selector and we only use it for one element
+   }
+      d- Attribute selectors Useing attribute for the element in css selectors{
+         attribute selectors type {
+               1- Element[attribute = value]{
+               color: blue;
+               }
+               2-Element[attribute ^= value]{
+               color: blue;
+               }
+               3-Element[attribute $= value]{
+               color: blue;
+               }
+               4-Element[attribute *= value]{
+               color: blue;
+               }
+               5-Element[attribute ~= value]{
+               color: blue;
+               }
+               6-Element[attribute |= value]{
+               color: blue;
+               }
+            }
+      }
+    3-Colors type{
+       a- css colors names [blue , red ,....]
+       b- Hex Code 
+       c- Decimal Code
 
-    3-
+    }
         
 
 
 }// CSS Section
 
-Code Section{
+Code Section{ 
 
 
    1- link <link rel="name" href="path for css file"/>
@@ -40,8 +67,26 @@ Code Section{
        
       c- The ID selector <p id = "Hid">Hola onii chan</p>
 
-        Pseudoselectors
+        1- basics Pseudoselectors{
          a- hover : css the element when it got hoverd  
+         b- nth-child(2) : css the currect child in ul 
+         c- link : style of the link before you vitited 
+         d- vitited : style of the link after you vitited 
+        }
+         2- advance Pseudoselectors
+            a- 
+
+
+         3- Attribute selectors{
+            in css Section
+            Element[attribute = value] : also you can use Pseudoselectors like
+            p[class=attribute-selector]:hover{    hover is optional
+               color: blue;
+            }
+         }   
+
+    3- Dummy text ,, type lorem the the number like lorem100  : OR : p*4>lorem20     
+
 }
 
 

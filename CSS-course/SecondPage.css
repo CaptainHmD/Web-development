@@ -14,10 +14,6 @@
   color: yellow;
 }
 
-
-
-  
-
   #google-link:link{/* color of the link before you click or visited */
       color:gray
   }
@@ -26,5 +22,8 @@
 }
 img{
     display: block;
+}
+p[class=attribute-selector]:hover{/*attribute selector */
+  color: peru;
 }
 
