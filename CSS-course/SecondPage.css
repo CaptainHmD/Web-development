@@ -1,10 +1,42 @@
+body{
+background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
+background-repeat: no-repeat; /*don`t repeat the image if it is small*/
+background-size: cover ; /*resize the image to fit correctly but it will cut the image if need */
+/* background-size: contain;  resize the image as much as possible without cuting the image */
+ 
+}
+
+
 
  #title:hover{/* hover is pseudoSelectors   */
-    color: red;
+    color: rgb(88, 119, 196) ;
  }
+ #title{
+  color: rgb(181, 22, 22) ;
+}
+#second-image{
+  background:rgba(88, 119, 196,0.5);
+}
+
+#empty-list1{
+  /* background: linear-gradient(to right,red,steelblue,green,blue); */
+  /* background: linear-gradient(to right, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
+    /* background: linear-gradient(210deg, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
+
+  background: radial-gradient(circle,red,blue 20%,green 40%,yellow);
+}
+#empty-list2{
+  /* background: linear-gradient(to right,red,steelblue,green,blue); */
+  /* background: linear-gradient(to right, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
+     background: linear-gradient(210deg, rgb(229, 8, 8),rgba(72, 201, 36,0)); 
+
+}
+
+
+
  li:first-child{ /* first-child is pseudoSelectors   */
    color: blue;  
- }/* first child of ul */
+ }/* first child of every li */
 
  li:nth-child(2){ /* nth-child(Number of child) is pseudoSelectors   */
     color: green;  
@@ -18,12 +50,12 @@
       color:gray
   }
   #google-link:visited{/* color of the link after you click or visit it  */
-    color: blue
+    color: gray;
 }
 img{
     display: block;
 }
 p[class=attribute-selector]:hover{/*attribute selector */
-  color: peru;
+  color: #0000ff;
 }
 

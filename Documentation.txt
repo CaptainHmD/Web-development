@@ -11,6 +11,22 @@ https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A
 
 } 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CSS Section{
 
    1- link this css file with html <link rel="name" href="path for css file"/>
@@ -46,14 +62,46 @@ CSS Section{
       }
     3-Colors type{
        a- css colors names [blue , red ,....]
-       b- Hex Code 
-       c- Decimal Code
+       b- Hex Code #0000ff this a hex code for blue color
+       c- Decimal Code ,   rgb(0,0,255) this a decimal code for Blue color
+       use color picker in google to choose
 
     }
-        
+    4- Images by URL   example:   background : url(here the url of the image);
+    5- background {
+      background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
+      background-repeat: no-repeat; /*don`t repeat the image if it is small*/
+      background-size: cover ; /*resize the image to fit correctly but it will cut the image if need */
+      /* background-size: contain;  resize the image as much as possible without cuting the image */
+    }
 
+    6-Gradients types{
+      Linear Gradients (goes down/up/left/right/diagonally)
+      Radial Gradients (defined by their center)
+      Conic Gradients (rotated around a center point)
+    }
+ 
+      
 
 }// CSS Section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Code Section{ 
 
@@ -86,7 +134,13 @@ Code Section{
          }   
 
     3- Dummy text ,, type lorem the the number like lorem100  : OR : p*4>lorem20     
-
+    
+   4- background{
+      background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
+      background-repeat: no-repeat; /*don`t repeat the image if it is small*/
+      background-size: cover ; /*resize the image to fit correctly but it will cut the image if needed */
+      /* background-size: contain;  resize the image as much as possible without cuting the image */
+   }
 }
 
 
