@@ -1,31 +1,65 @@
 body{
-background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
+/* background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg"); */
+background:rgba(32,33,36,255);
 background-repeat: no-repeat; /*don`t repeat the image if it is small*/
 background-size: cover ; /*resize the image to fit correctly but it will cut the image if need */
 /* background-size: contain;  resize the image as much as possible without cuting the image */
- 
+ /*font-size: 2em; /* double the size of every thing in the page*/
+ text-align: justify;
+ /* font-family: sans-serif; */
+ font-family: 'Akshar', sans-serif; /*https://fonts.google.com/specimen/Akshar#standard-styles*/
 }
 
+p{
+  color: white;
+}
 
+#service-image{
+  height: 300px;
+  width: 100%;
+  background: radial-gradient(circle,red 10%,green,rgb(12, 84, 240));
+}
 
  #title:hover{/* hover is pseudoSelectors   */
     color: rgb(88, 119, 196) ;
  }
  #title{
   color: rgb(181, 22, 22) ;
+  font-weight: 600;
 }
+#first-image{
+  border: 3px solid rgb(23, 170, 27);
+  /* border: 2px dotted rgb(7, 212, 14); */
+/* border: 2px dashed rgb(7, 212, 14); */
+/* border: 5px double rgb(23, 170, 27); */
+
+
+
+  height: 200px;
+  width: 60vw;
+
+  padding: 20px; /* */
+  margin: 20px;
+}
+
+
 #second-image{
-  background:rgba(88, 119, 196,0.5);
+  padding-left: 10%;
+  border: 3px solid blue;
+  background:rgba(32,33,36,255);
 }
 
 #empty-list1{
   /* background: linear-gradient(to right,red,steelblue,green,blue); */
   /* background: linear-gradient(to right, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
     /* background: linear-gradient(210deg, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
-
+    height: 300px;
+    width: 100%;
   background: radial-gradient(circle,red,blue 20%,green 40%,yellow);
 }
 #empty-list2{
+  height: 300px;
+  width: 100%;
   /* background: linear-gradient(to right,red,steelblue,green,blue); */
   /* background: linear-gradient(to right, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
      background: linear-gradient(210deg, rgb(229, 8, 8),rgba(72, 201, 36,0)); 
@@ -45,12 +79,36 @@ background-size: cover ; /*resize the image to fit correctly but it will cut the
 #White-flower li:nth-child(1){
   color: yellow;
 }
+#White-flower{
+  /* text-decoration: none; */
+  /* text-decoration: underline;  */
+  /* text-decoration: line-through;  */
+    text-decoration: overline; 
+    /*---------------------------------------     */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /*---------------------------------------     */
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: justify;
 
+}
+#google-link{
+ /* display: inline-block;  */
+ line-height: 70px;
+
+}
   #google-link:link{/* color of the link before you click or visited */
-      color:gray
+      color:blue;
+      text-decoration: none;
   }
   #google-link:visited{/* color of the link after you click or visit it  */
-    color: gray;
+    color: rgba(131,96,163);
+    text-decoration: none;
+}
+#google-link:hover{/* color of the link after you click or visit it  */
+  text-decoration: underline;
 }
 img{
     display: block;
@@ -59,3 +117,28 @@ p[class=attribute-selector]:hover{/*attribute selector */
   color: #0000ff;
 }
 
+.text-edit{
+  /* font-style: italic; */
+  font-style:oblique; 
+
+}
+#container{
+
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-item{
+  background-color: rgb(36, 130, 39);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+}

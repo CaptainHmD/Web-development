@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="/CSS-course/SecondPage.css">  <!--here to link css file with html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+   
+
+<link rel="stylesheet" type="text/css" href="/CSS-course/SecondPage.css">  <!--here to link css file with html-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +14,16 @@
 </head>
 <body>
     <h1 id="title">Flowers Informations</h1>
+    <a href="https://fonts.google.com/specimen/Akshar#standard-styles">link of the font-family-style</a>
     <h2 >Orange Flower</h2>
-    <img src="/images/Flower.jpg" alt="hi">
+    <img src="/images/Flower.jpg" alt="hi" id="first-image">
     <ul>
         <li class="list-child">First child</li>
         <li class="list-child">Scond child</li>
         <li class="list-child">Last child</li>
     </ul>
-    <p class="para-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    
+    <p class="para-text"><span class = text-edit>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>  
     Provident exercitationem quasi nesciunt praesentium repudiandae 
     repellat deleniti reiciendis modi eos blanditiis?</p>
 
@@ -41,37 +48,41 @@
         </form>
     </div>
 
-    <div id="empty-list1">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+
+    <!-- <div id="empty-list2"></div>
+    <div id="empty-list1"></div> -->
+
+    <div id="service-image"></div>
+    <div id = container>
+        <div class="container-item"style="
+            order: 3;
+            flex-grow: 1;
+            flex-shrink: 3;
+            flow-basis: 100px ; ">A</div>
+        <div class="container-item"style="
+        order: 4;
+        flex-grow: 1;
+        flex-shrink: 2;
+        flow-basis: 100px ; ">B</div>
+        <div class="container-item"style="
+        order: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flow-basis: 100px ; ">C</div>
+        <div class="container-item"style="
+        order: 0;
+        flex-grow: 1;
+        flex-shrink: 5;
+        flow-basis: 100px ; ">D</div>
+        <div class="container-item"style="
+        order: 2;
+        flex-grow: 1;
+        flex-shrink: 4;
+        flow-basis: 100px ; ">E</div>
+   
+        
     </div>
-    <div id="empty-list2">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
+        
+
 </body>
 </html>

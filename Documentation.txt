@@ -71,7 +71,7 @@ CSS Section{
     5- background {
       background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
       background-repeat: no-repeat; /*don`t repeat the image if it is small*/
-      background-size: cover ; /*resize the image to fit correctly but it will cut the image if need */
+      background-size: cover ; /*resize the image to fit correctly but it will cut the image if needed */
       /* background-size: contain;  resize the image as much as possible without cuting the image */
     }
 
@@ -80,7 +80,57 @@ CSS Section{
       Radial Gradients (defined by their center)
       Conic Gradients (rotated around a center point)
     }
+
+    7- Types of Units{
+       a- Relative Lengths
+
+       b-Absolute Lengths
+
+    } 
+
+    8- text manipulation{
+       1- text-decoration{
+            text-decoration: none; 
+            text-decoration: underline;  
+            text-decoration: line-through;  
+            text-decoration: overline; 
+
+       }
+
+       2-text-transform{
+            /* text-transform: uppercase; */
+            /* text-transform: lowercase; */
+       }
+
+       3-text-align{
+           /* text-align: center; */
+            /* text-align: left; */
+            /* text-align: right; */
+            text-align: justify;
+       }
+
+    }
+
+ 9- border::: 4 main types {
+    1- solid
+    2- dotted
+    3- dashed
+    4- double
+ }
  
+ 10- margin & padding{
+    marging is moving the image around the page
+    padding is addinf space inside the image
+ }
+
+11- Float & display{
+
+   in-line
+   block-line
+}
+
+
+
       
 
 }// CSS Section
@@ -133,7 +183,7 @@ Code Section{
             }
          }   
 
-    3- Dummy text ,, type lorem the the number like lorem100  : OR : p*4>lorem20     
+    3- Dummy text ,, type lorem then the number like lorem100  : OR : p*4>lorem20     
     
    4- background{
       background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
@@ -141,6 +191,27 @@ Code Section{
       background-size: cover ; /*resize the image to fit correctly but it will cut the image if needed */
       /* background-size: contain;  resize the image as much as possible without cuting the image */
    }
+
+
+   5-margin & padding{
+      margin-directions: size ;
+      like::::: 
+          margin-top: 20px; 
+          margin-left: 20px;
+      you can use padding as well;
+
+      
+      in shorthand for styleing all directions
+      margin: top right bottom left ;
+      like:::::
+      margin: 100px 40px 5px 0
+
+      zero mean nothing
+
+
+   }
+
+   6-
 }
 
 
