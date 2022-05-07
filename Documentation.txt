@@ -119,14 +119,98 @@ CSS Section{
  }
  
  10- margin & padding{
-    marging is moving the image around the page
-    padding is addinf space inside the image
+    marging is moving the element around the page
+    padding is adding space inside the element
+
  }
 
 11- Float & display{
 
    in-line
    block-line
+}
+12- line-height {
+   line height : sets the differences between two lines of your content.
+}
+
+13- flex and grid{
+
+      Grid and Flexbox are layout models that share similarities and can be used together.
+       The key difference is that CSS Grid can be used to create two-dimensional layouts,
+       while Flexbox can only be used to create one-dimensional layouts. 
+
+
+       
+}
+
+14- transition{
+
+   transition:    first property or type all for every property ,
+    second time it take to do the transition,
+    third style of the transition,
+    last os the delay
+
+   
+   transition:  property duration timing-function delay
+
+
+    transition: background, color  1s  ease-in-out
+
+
+    styles{
+       1-ease
+       2- linear
+       3- ease-in-out
+       and alot more in this link
+       https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp
+
+    }
+
+}
+
+
+
+15- transformation{
+   transform:  rotate(angle); :: rotate (:
+  transform: translate(x , y ) px   :: moveing the object-position: 
+  transform: scale(number);    :: increase the size
+  transform: skewX(angle);    :: curve
+  transform: skewY(angle);    :: curve
+  shorthand    transform: matrix(scaleX , skewX , skewY , scaleY , translateX , translateY );
+}
+
+16- animations{
+   key frames 
+   @keyframes name-of-the-function{
+   0%{
+      CSS Section
+   }
+   50%{
+      CSS Section
+   }
+   90%{
+      CSS Section
+   }
+   100%{
+      CSS Section
+   }
+}
+
+
+   for applying the animation
+   
+   animation-name: red-to-black ; /* name for the function */
+  animation-duration: 4s; /* animation duration time */
+  animation-timing-function: linear;/* style of animation*/
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite; /*  value can be number or infinite*/
+  /*animation-direction: alternate-reverse ; /*normal is the defulte ,, reverse ,,,,, alternate-reverse*/
+  /* ShortHand
+  animation: name duration speedorstyle delay iteration-count direction;
+  animation: red-to-black 4s linear 0 infinite normal 
+  */
+
+
 }
 
 
@@ -211,7 +295,16 @@ Code Section{
 
    }
 
-   6-
+   6- FLexbox{
+      flex-directions: column or row -reverse;   
+
+}
+7- line-height {
+   line height : sets the differences between two lines of your content.
+
+   example ----------> in css section (    line-height: 50px   )  
+   }
+
 }
 
 
